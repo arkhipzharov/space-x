@@ -13,7 +13,7 @@
         <img
           src="@/assets/img/background/mars-overlay.png"
           alt="Mars"
-          class="background__image dn"
+          class="background__image"
         >
         <div
           class="
