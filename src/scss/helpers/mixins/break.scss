@@ -1,0 +1,21 @@
+// https://github.com/tachyons-css/tachyons-queries/blob/master/queries.scss
+
+@mixin break($point) {
+  @if ($point == ns) {
+    @media #{$breakpoint-not-small} {
+      @content;
+    }
+  } @else if ($point == m) {
+    @media #{$breakpoint-medium} {
+      @content;
+    }
+  } @else if ($point == mars) {
+    @media screen and (min-width: 0) and (max-width: em(1235)) {
+      @content;
+    }
+  } @else if ($point == l) {
+    @media #{$breakpoint-large} {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+$base-font-size: 16;
+
+// `em` because it's shorter and easier to write this function name
+@function em($pixelsWithoutUnit) {
+  @return #{$pixelsWithoutUnit / $base-font-size}rem;
+}

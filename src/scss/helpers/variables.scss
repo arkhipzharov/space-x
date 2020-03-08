@@ -1,0 +1,28 @@
+/*
+  End-use variables containing partially or fully colors taken from variables
+  in tachyons or custom palette. This approach allows you to not change the name
+  of the variable in the code itself if you need to change the color when
+  choosing it
+*/
+
+// Text
+
+$text-white: $white;
+
+// Backgrounds
+
+$bg-white: $white;
+
+// Fonts
+
+$font-large: em(57.1);
+
+// Max-width
+
+$mw-page: 1170;
+
+// Fonts
+
+$font-fallback: Arial, sans-serif;
+
+$font-museo: 'Museo Sans Cyrl', $font-fallback;

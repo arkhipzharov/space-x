@@ -1,0 +1,21 @@
+$path: '~@/assets/fonts/';
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  src: local('MuseoSansCyrl Regular'), local('MuseoSansCyrl-Regular'),
+    url('#{$path}MuseoSansCyrl-Regular.woff2') format('woff2'),
+    url('#{$path}MuseoSansCyrl-Regular.woff') format('woff'),
+    url('#{$path}MuseoSansCyrl-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 100;
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  src: local('MuseoSansCyrl Thin'), local('MuseoSansCyrl-Thin'),
+    url('#{$path}MuseoSansCyrl-Thin.woff2') format('woff2'),
+    url('#{$path}MuseoSansCyrl-Thin.woff') format('woff'),
+    url('#{$path}MuseoSansCyrl-Thin.ttf') format('truetype');
+}

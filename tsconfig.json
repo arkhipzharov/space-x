@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "strict": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    // Module '"..."' can only be default-imported using the 'esModuleInterop' flag
+    "esModuleInterop": true,
+    // Module '...' can only be default-imported using the
+    // 'allowSyntheticDefaultImports' flag
+    "allowSyntheticDefaultImports": true,
+    // Cannot find module '...'
+    "moduleResolution": "node",
+    // for debugging typescript vue sfc in chrome dev tools
+    "sourceMap": true,
+    // vscode path completion fix
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

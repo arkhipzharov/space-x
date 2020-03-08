@@ -1,0 +1,79 @@
+// Text colors
+
+.grey {
+  color: #dddddd;
+}
+
+// Background color
+
+.bg-grey {
+  // this is fallback for text with gradient
+  background-color: #dddddd;
+}
+
+// Fixes
+
+/*
+  you should use this instead of .dn *if you overriding .flex-...* to
+  avoid that .dn overrides .flex-ns/flex-l/etc (example: .flex.hide-l),
+  otherwise use .dn
+
+  https://github.com/tachyons-css/tachyons-sass/issues/32#issuecomment-493989784
+*/
+.hide {
+  display: none;
+}
+
+@include break(ns) {
+  .hide-ns {
+    display: none;
+  }
+}
+
+@include break(m) {
+  .hide-m {
+    display: none;
+  }
+}
+
+@include break(l) {
+  .hide-l {
+    display: none;
+  }
+}
+
+// Font size
+
+.f-large {
+  font-size: $font-large;
+}
+
+@include break(ns) {
+  .f-large-ns {
+    font-size: em(57.1);
+  }
+}
+
+@include break(m) {
+  .f-large-m {
+    font-size: em(57.1);
+  }
+}
+
+@include break(l) {
+  .f-large-l {
+    font-size: em(57.1);
+  }
+}
+
+// Borders
+
+.b--grey {
+  border-color: rgba(152, 147, 147, 0.21);
+}
+
+// Max width
+
+.mw-page {
+  max-width: em($mw-page);
+}

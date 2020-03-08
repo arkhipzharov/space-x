@@ -1,0 +1,9 @@
+// separate config because otherwise we need to set "target" to "es5" in main one
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    // Module '"..."' can only be default-imported using the 'esModuleInterop' flag
+    "esModuleInterop": true,
+  }
+}
