@@ -4,7 +4,7 @@
 
 This is a fully adaptive and possibly cross browser compatible (tested on latest
 chrome, ff, opera, edge, chrome mobile) test task website made with
-[tachyons](http://tachyons.io) css framework in ~4 days. Live preview of result
+[tachyons](http://tachyons.io) css framework. Live preview of result
 is available [here](http://lime-test.h1n.ru/space-x)
 
 ## 📥 Setup
